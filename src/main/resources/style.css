@@ -1,0 +1,30 @@
+body, html {
+  margin: 0;
+  font-family: nue, helvetica, sans-serif;
+  font-size: 14px;
+  background: url(img/linen.png) repeat;
+}
+
+body {
+  padding: 0 12px;
+}
+
+.cluster {
+  position: relative;
+  height: 320px;
+}
+
+svg {
+  position: absolute;
+  border: 1px solid black;
+  box-shadow: 2px 2px 6px #555;
+  background: white;
+}
+
+circle {
+  fill: #1e90ff;
+}
+
+line {
+  stroke: #aaa;
+}
